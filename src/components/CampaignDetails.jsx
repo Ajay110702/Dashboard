@@ -96,7 +96,7 @@ const CampaignDetails = ({ data = {}, title = "Email Campaign" }) => {
           </div>
 
           {/* Attachment Open */}
-          <div class="side-item">
+          <div className="side-item">
             <p className="item-title">Attachment Open</p>
 
             <CircleProgress
