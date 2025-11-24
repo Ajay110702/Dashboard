@@ -42,7 +42,9 @@ const CampaignSummary = ({
                 percentage={consumedLicenses}
                 label={consumedLicenses}
                 color="#10b981"
-              />
+              /> 
+              
+              <div className="big-label">Consumed User Licenses</div>
             </div>
 
             {/* Total Interaction */}
@@ -82,6 +84,7 @@ const CampaignSummary = ({
               color="#7c3aed"
               size={160}
             />
+            <div className="big-label-campaign">Total Campaigns</div>
           </div>
 
           {/* Campaign Type Legend */}

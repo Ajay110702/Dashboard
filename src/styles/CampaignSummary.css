@@ -124,6 +124,12 @@
   margin-left: auto;
   font-weight: 700;
 }
+.big-label-campaign {
+  font-size: 13px;
+  opacity: 0.9;
+  padding-left: 30px;
+  padding-top: 6px;
+}
 
 
 @media (max-width: 992px) {
